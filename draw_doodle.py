@@ -119,8 +119,6 @@ print(y_pred[0])
 print(class_names)
 print(class_names[y_pred[0]])
 
-# prompt: save class_names array to json
-
 import json
 
 with open('class_names.json', 'w') as f:
